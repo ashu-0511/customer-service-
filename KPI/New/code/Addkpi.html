@@ -1,0 +1,301 @@
+<link rel="stylesheet" href="../../assets/css/style.css">
+
+
+<form id="fom_1" action="">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class="aster">* </span>Code</label>
+                <input name="code" type="text" class="capitalize-first-letter  form-control purchaseselects"
+                    placeholder="Enter Code">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Name</label>
+                <input name="name" type="text" class=" capitalize-first-letter form-control purchaseselects"
+                    placeholder="Enter Name">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>First Response Time</label>
+                <input name="FirstResponseTime" type="number" class="form-control purchaseselects"
+                    placeholder="Enter First Response Time">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label for="tags" class="purchaseinfo mb-1"><span class="aster">*
+                    </span> Time Measurement</label>
+                <div class=" dropdown-with-icon dropdownalignment">
+                    <select class="selectpicker form-control " name="time" data-live-search="true"
+                        Placeholder="Select Time Measurement">
+                        <option value="36">Seconds</option>
+                        <option value="38">Minutes</option>
+                        <option value="38">Hours</option>
+                        <option value="38">Days</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Average solution Time</label>
+                <input name="AveragesolutionTime" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Average solution Time">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label for="tags" class="purchaseinfo mb-1"><span class="aster">*
+                    </span> Time Measurement</label>
+                <div class=" dropdown-with-icon dropdownalignment">
+                    <select class="selectpicker form-control " name="time" data-live-search="true"
+                        Placeholder="Select Time Measurement">
+                        <option value="36">Seconds</option>
+                        <option value="38">Minutes</option>
+                        <option value="38">Hours</option>
+                        <option value="38">Days</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Average Handle Time</label>
+                <input name="AverageHandleTime" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Average Handle Time">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label for="tags" class="purchaseinfo mb-1"><span class="aster">*
+                    </span> Time Measurement</label>
+                <div class=" dropdown-with-icon dropdownalignment">
+                    <select class="selectpicker form-control " name="time" data-live-search="true"
+                        Placeholder="Select Time Measurement">
+                        <option value="36">Seconds</option>
+                        <option value="38">Minutes</option>
+                        <option value="38">Hours</option>
+                        <option value="38">Days</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Number of Tickets</label>
+                <input name="NumberofTickets" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Number of Tickets">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Number of Resolved Tickets</label>
+                <input name="NumberofResolvedTickets" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Number of Resolved Tickets">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Number of Tickets by Medium</label>
+                <input name="NumberofTicketsbyMedium" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Number of Tickets by Medium">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Escalation Rate</label>
+                <input name="EscalationRate" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Escalation Rate">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="purchasegrp">
+                <label class="purchaseinfo"><span class=" aster">* </span>Customer Satisfaction Score</label>
+                <input name="Customer" type="number" class="form-control purchaseselects"
+                    placeholder="Enter Customer Satisfaction Score">
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal_save text-end pt">
+                <div class="button_su me-1">
+                    <button type="button" onclick="handleClick1()" data-bs-dismiss="modal" class="taskclose1">
+                        <span class="button_text_container">
+                            CLOSE
+                        </span>
+                    </button>
+                </div>
+
+                <div class="button_su">
+                    <span class="su_button_circle"></span>
+                    <button type="submit" class="button_su_inner tasksave1 ms-0 tsk-btn-mr-5 orderclr">
+                        <span class="button_text_container">
+                            SAVE
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    document.getElementById('currencySelect').addEventListener('change', function () {
+        var detailsTable = document.getElementById('detailsTable');
+        if (this.value) {
+            detailsTable.style.display = 'block';
+        } else {
+            detailsTable.style.display = 'none';
+        }
+    });
+</script>
+
+<script>
+    $("#fom_1").formValidation({
+        framework: "bootstrap",
+        fields: {
+            code: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Code",
+                    },
+                },
+            },
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter name",
+                    },
+                },
+            },
+            FirstResponseTime: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter First Response Time",
+                    },
+                },
+            },
+            AveragesolutionTime: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Average solution Time",
+                    },
+                },
+            },
+            AverageHandleTime: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Average Handle Time",
+                    },
+                },
+            },
+            NumberofTickets: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Number of Tickets",
+                    },
+                },
+            },
+            NumberofResolvedTickets: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Number of Resolved Tickets",
+                    },
+                },
+            },
+            NumberofTicketsbyMedium: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Number of Tickets by Medium",
+                    },
+                },
+            },
+            EscalationRate: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Escalation Rate",
+                    },
+                },
+            },
+            Customer: {
+                validators: {
+                    notEmpty: {
+                        message: "Enter Customer Satisfaction Score",
+                    },
+                },
+            },
+            time: {
+                validators: {
+                    notEmpty: {
+                        message: "Select Time Measurement",
+                    },
+                },
+            },
+
+        },
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker('refresh');
+    });
+</script>
+
+
+<!--  Auto show today's date -->
+<script>
+    function addDate() {
+        date = new Date();
+        var month = date.getMonth() + 1;
+        var day = date.getDate();
+        var year = date.getFullYear();
+
+        if (document.getElementById('st_date').value == '') {
+            document.getElementById('st_date').value = year + '-' + month + '-' + day;
+        }
+    }
+
+</script>
+
+<!--   show date picker  -->
+<script>
+    document.getElementById('st_date').addEventListener('click', () => {
+        if ('showPicker' in HTMLInputElement.prototype) {
+            document.getElementById('st_date').showPicker();
+        }
+    })
+</script>
+<script>
+    const inputFields = document.querySelectorAll(".capitalize-first-letter");
+
+    inputFields.forEach((input) => {
+        input.addEventListener("input", function (event) {
+            let value = event.target.value;
+            if (value.length > 0) {
+                // Capitalize the first letter only
+                event.target.value = value.charAt(0).toUpperCase() + value.slice(1);
+            }
+        });
+    });
+</script>
